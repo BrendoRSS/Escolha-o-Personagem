@@ -1,0 +1,40 @@
+body{
+    background: rgb(0, 0, 0);
+    font: normal 15pt Arial;
+    text-align: center;
+    color:white;
+    background-image: url(https://i0.wp.com/otakubfx.com.br/wp-content/uploads/2016/07/como-criar-gif-de-animes-3.gif?resize=993%2C530&ssl=1);
+    background-size: 1400px;
+    -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+}
+
+header {
+
+}
+div#res {
+        font-style: italic;
+}
+div#quali {
+        font-style: italic;
+        text-justify: distribute;
+        color: black;
+        font: 15px Arial;
+}
+
+section {
+        background: white;
+        border-radius: 10px;
+        padding: 15px;
+        width: 600px;
+        margin: auto;
+        box-shadow: 3px 3px 10px black;
+        color:black;
+}
+
+folder {
+        color: white;
+        text-align: center;
+        font-style: italic;
+
+}

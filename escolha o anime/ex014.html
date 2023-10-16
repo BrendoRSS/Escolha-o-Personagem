@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de exercício</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Escolha um personagem para te defender:</h1>
+    </header>
+    <section>
+        <div> 
+            <p>Personagens: 
+                <input type="radio" name="txtperso" id="Ichigo">
+                <label for ="ichigo"> Ichigo Kurosaki  </label>
+                <input type="radio" name="txtperso" id="Luffy">
+                <label for ="Luffy"> Monkey D. Luffy  </label>
+                <input type="radio" name="txtperso" id="Goku">
+                <label for ="Goku"> Goku </label>
+            </p>
+            <p>
+                <input type="button" value="Pronto" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">     
+        </div>
+        <div id="quali">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Cursoemvideo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
